@@ -1,5 +1,5 @@
 [Ubuntu]
-192.168.56.102  apache_package=apache2 php_package=libapache2-mod-php
+192.168.56.102  apache_package=apache2 php_package=libapache2-mod-php python_package=python3 pip_package=python3-pip java_package=openjdk-11-jdk new_user=ansible_user
 
 [CentOS]
-192.168.56.104  apache_package=httpd php_package=php
+192.168.56.104  apache_package=httpd php_package=php python_package=python3 pip_package=python3-pip java_package=java-11-openjdk-devel new_user=ansible_user
